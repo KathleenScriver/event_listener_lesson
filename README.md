@@ -58,9 +58,9 @@ This is where you'll be working. You can start this off with `lite-server`
 Your tasks:
 1. As a user, when I fill in the form to create a new Hedgehog RSVP and click submit, I
 see that new Hog on my Party Goers list.
+1. When I click one of the age range buttons, I should only see the hogs that match that age range.
 1. As a user, when I click the `Cancel RSVP` button next to a Hedgehog, it removes that
 hog from the RSVP list (*Note:* this won't delete it from the API so on refresh, that hog will return.)
-1. When I click one of the age range buttons, I should only see the hogs that match that age range.
 
 
 
