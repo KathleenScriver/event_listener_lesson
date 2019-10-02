@@ -11,7 +11,19 @@
   Be prepared to share some events examples.
 
 
+
+
 *What is happening when an event listener is called?*
+
+
+
+*What is the event target?*
+
+
+
+*How do we add an event listener to an element?*
+
+
 
 Let's play with this.
 1. Copy the following HTML into a new HTML document.
@@ -49,3 +61,10 @@ see that new Hog on my Party Goers list.
 1. As a user, when I click the `Cancel RSVP` button next to a Hedgehog, it removes that
 hog from the RSVP list (*Note:* this won't delete it from the API so on refresh, that hog will return.)
 1. When I click one of the age range buttons, I should only see the hogs that match that age range.
+
+
+
+
+If there's time:
+What if I wanted to grab all the delete buttons after they were created and add an event
+listener to each of them?  Event delegation.
