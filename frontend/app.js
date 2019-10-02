@@ -8,6 +8,12 @@ const displayHogs = (all_hogs) => {
   all_hogs.forEach(hog => {
     const hogEntry = document.createElement('p')
     hogEntry.innerText = `${hog.name} - ${hog.age}`
+
+    const deleteHog = document.createElement('button')
+    deleteHog.id = 'delete-hog'
+    deleteHog.innerText = "Cancel RSVP"
+    hogEntry.append(deleteHog)
+
     partyList.append(hogEntry)
   })
 }
