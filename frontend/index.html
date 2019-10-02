@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hedgehog Party</title>
+  <link rel='stylesheet' href='./app.css'>
+</head>
+<body>
+  <h1>Hedgehog Party!</h1>
+  <img class='center' src='https://cdn0.wideopenpets.com/wp-content/uploads/2016/06/hedgehog-663638_960_720.jpg' alt='hedgehog'>
+  <h3>Party Goers!</h3>
+  <ul class='search-list'>
+    <li id='young-search'>Young (0-4)</li>
+    <li id='middle-age'>Middle Age (5-9)</li>
+    <li id='old-search'>Older (9+)</li>
+  </ul>
+  <div id='party-list'></div>
+
+  <form action='http:localhost:3000/hedgehogs' method='POST'>
+    <label for='name'>Name</label>
+    <input id='name' type='text' name='name' />
+
+    <label for='age'>Age</label>
+    <input id='age' type='number' name='age' />
+
+    <input type='submit' value='Add Hedgie to Party'></submit>
+
+  </form>
+  <script src='./app.js'></script>
+</body>
+</html>
